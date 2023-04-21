@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/*Paleta de cores
+    preto:#0D0D0D
+    marrom:#593527
+    bege:#A6653F
+
+    TYPICAL DIVE BREAKPOINTS
+    Pequenas telas: ate 600px
+    Celular: 600px ate 768px
+    Tablet: 768px ate 992px
+    Desktop:992px ate 1200px
+    Grandes telas: acima de 1200px
+
+*/
+@media screen and (min-width:768px) and (max-width:992px){
+
+    body{
+        background-image: linear-gradient(to top, #593527,#0D0D0D);
+    }
+    section#login{
+        width: 80vw;
+        
+    }
+    section#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100vh;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
+}
+@media screen and (min-width:992px){
+    body{
+        background-image: linear-gradient(to top, #593527,#0D0D0D);
+    }
+    section#login{
+        width: 950px;
+    }
+    section#login > div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 50%;
+    }
+
+}
